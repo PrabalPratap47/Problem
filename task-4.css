@@ -1,0 +1,37 @@
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+.text-container {
+  padding-left: 70px; /* Adjust the value as needed */
+}
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: rgb(14, 163, 0);
+}
+
+#Java{
+  top: 80px;
+  background-color: #067fb8;
+}
+
+#Css{
+  top: 140px;
+  background-color: #f00404;
+}
+
+#Html {
+  top: 200px;
+  background-color: #3b2c2b;
+}
